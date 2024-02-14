@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-cloudapi-quick-start",
+  "version": "1.0.0",
+  "description": "An example webhook for WhatsApp Cloud API quick start tutorial.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon whats-serve.js"
+  },
+  "author": "WhatsApp",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/sticky": "^1.0.4",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "ioredis": "^5.3.2",
+    "nodemailer": "^6.9.7",
+    "npm": "^10.2.3",
+    "openai": "^4.16.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.2",
+    "socket.io-redis": "^6.1.1",
+    "socket.io-stream": "^0.9.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
